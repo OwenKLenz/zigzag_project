@@ -1,4 +1,5 @@
-require 'pry'
+require 'bundler/gem_tasks'
+
 desc "Add and commit changes to git"
 task :commit, :message do |_, args|
 
